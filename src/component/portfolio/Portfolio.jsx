@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Preloader from './Preloader';
+import Preloader from './PreLoader';
 import HeroSection from './HeroSection';
 import Navigation from './Navigation';
 import Bio from './Bio';

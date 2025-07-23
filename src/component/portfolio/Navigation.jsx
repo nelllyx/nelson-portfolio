@@ -10,14 +10,13 @@ const Navigation = ( )=> {
         { href: '#about', label: 'About' },
         { href: '#skills', label: 'Skills' },
         { href: '#projects', label: 'Projects' },
-        //{ href: '#qualifications', label: 'Qualifications' },
         { href: '#contact', label: 'Contact' }
     ];
     const resumeUrl = '/SoftwareEngineer.pdf';
 
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50  w-full">
+        <nav  className="fixed top-0 left-0 right-0 z-50  w-full">
             <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 mt-1">
                 <div className="flex items-center justify-between h-16">
                     <div className="flex-shrink-0">

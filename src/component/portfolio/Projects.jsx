@@ -3,7 +3,7 @@ import { FaLaptopCode, FaServer, FaGlobe } from "react-icons/fa";
 
 const Projects = () => {
     return (
-        <section className="w-full pt-16 pb-2 mt-16">
+        <section id="projects" className="w-full pt-16 pb-2 mt-16">
             <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-12 md:mb-16">

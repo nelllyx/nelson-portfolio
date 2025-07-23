@@ -5,7 +5,7 @@ import myImage from "/public/IMG_4490.JPG"
 
 const HeroSection = () => {
     return(
-        <section className="w-full pt-16 pb-2 mt-16">
+        <section id="home" className="w-full pt-16 pb-2 mt-16">
             <div className="max-w-5xl mx-auto px-2 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-1  md:grid-cols-12  items-center gap-2">
                     {/* Social Icons */}

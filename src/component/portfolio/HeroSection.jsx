@@ -1,4 +1,7 @@
 import React from "react";
+import myImage from "/src/asset/IMG_4490.JPG"
+
+
 
 const HeroSection = () => {
     return(
@@ -62,7 +65,7 @@ const HeroSection = () => {
                             {/* Animated glowing border */}
                             <div className="absolute inset-0 rounded-2xl pointer-events-none border-2 border-cyan-300 opacity-40 animate-pulse" />
                             <img
-                                src="/src/asset/IMG_4490.JPG"
+                                src={myImage}
                                 alt="Profile"
                                 className="rounded-xl w-60 h-72 object-cover shadow-2xl relative z-10"
                                 style={{ filter: 'brightness(0.99) contrast(0.99) blur(0.2px)', transition: 'filter 0.3s' }}

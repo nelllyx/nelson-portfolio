@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "/src/asset/IMG_4490.JPG"
+import myImage from "/public/IMG_4490.JPG"
 
 
 

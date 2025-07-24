@@ -60,8 +60,8 @@ const Projects = () => {
                     <p className="text-gray-600 mb-4">These are my deployed fullstack applications:</p>
                     <div className="space-y-3">
                         <div className="p-3 bg-green-50 rounded-lg">
-                            <h4 className="font-semibold text-green-800">Task Management App</h4>
-                            <p className="text-sm text-gray-600">Full-featured task manager with user authentication</p>
+                            <h4 className="font-semibold text-green-800">Anonymous Therapy App</h4>
+                            <p className="text-sm text-gray-600">Online therapy with a real time chat with therapist</p>
                             <a href="#" className="text-green-600 text-sm hover:underline">
                                 View Live →
                             </a>
@@ -69,13 +69,6 @@ const Projects = () => {
                         <div className="p-3 bg-green-50 rounded-lg">
                             <h4 className="font-semibold text-green-800">Blog Platform</h4>
                             <p className="text-sm text-gray-600">Content management system with admin panel</p>
-                            <a href="#" className="text-green-600 text-sm hover:underline">
-                                View Live →
-                            </a>
-                        </div>
-                        <div className="p-3 bg-green-50 rounded-lg">
-                            <h4 className="font-semibold text-green-800">Social Media App</h4>
-                            <p className="text-sm text-gray-600">Real-time social platform with messaging</p>
                             <a href="#" className="text-green-600 text-sm hover:underline">
                                 View Live →
                             </a>
@@ -91,22 +84,22 @@ const Projects = () => {
                     <p className="text-gray-600 mb-4">Server-side projects and APIs available on GitHub:</p>
                     <div className="space-y-3">
                         <div className="p-3 bg-purple-50 rounded-lg">
-                            <h4 className="font-semibold text-purple-800">REST API Server</h4>
-                            <p className="text-sm text-gray-600">Node.js/Express API with MongoDB integration</p>
-                            <a href="#" className="text-purple-600 text-sm hover:underline">
+                            <h4 className="font-semibold text-purple-800">Logistic Application</h4>
+                            <p className="text-sm text-gray-600">Spring boot</p>
+                            <a href="https://github.com/nelllyx/LogisticApp" className="text-purple-600 text-sm hover:underline">
                                 View on GitHub →
                             </a>
                         </div>
                         <div className="p-3 bg-purple-50 rounded-lg">
-                            <h4 className="font-semibold text-purple-800">Authentication Service</h4>
-                            <p className="text-sm text-gray-600">JWT-based auth system with role management</p>
-                            <a href="#" className="text-purple-600 text-sm hover:underline">
+                            <h4 className="font-semibold text-purple-800">Data Structures & Algorithms</h4>
+                            <p className="text-sm text-gray-600">Java</p>
+                            <a href="https://github.com/nelllyx/Kata-functions" className="text-purple-600 text-sm hover:underline">
                                 View on GitHub →
                             </a>
                         </div>
                         <div className="p-3 bg-purple-50 rounded-lg">
-                            <h4 className="font-semibold text-purple-800">GraphQL API</h4>
-                            <p className="text-sm text-gray-600">Modern GraphQL server with real-time subscriptions</p>
+                            <h4 className="font-semibold text-purple-800">Data Structures & Algorithms</h4>
+                            <p className="text-sm text-gray-600">Python</p>
                             <a href="#" className="text-purple-600 text-sm hover:underline">
                                 View on GitHub →
                             </a>

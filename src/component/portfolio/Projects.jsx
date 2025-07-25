@@ -14,11 +14,11 @@ const Projects = () => {
         if (isOpen) {
             document.body.classList.add('modal-open');
         } else {
-            document.body.classList.add('modal-open');
+            document.body.classList.remove('modal-open');
         }
 
         return () => {
-            document.body.classList.add('modal-open');
+            document.body.classList.remove('modal-open');
         }
 
     }, [isOpen]);

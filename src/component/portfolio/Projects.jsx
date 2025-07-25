@@ -7,13 +7,23 @@ const Projects = () => {
     const [isOpen, setIsOpen] = useState(null);
 
     useEffect(() => {
+        let scrollPosition = 0;
+        // Save current scroll position
+        scrollPosition = window.scrollY;
+
         if (isOpen) {
             document.body.style.overflow = 'hidden';
             document.body.style.position = 'fixed';
             document.body.style.width = '100%';
+            document.body.style.top = `-${scrollPosition}px`;
         } else {
+            const scrollY = document.body.style.top;
             document.body.style.overflow = 'auto';
             document.body.style.position = 'static';
+            document.body.style.top = 'auto';
+
+            // Restore scroll position
+            window.scrollTo(0, parseInt(scrollY || '0') * -1);
         }
 
         return () => {

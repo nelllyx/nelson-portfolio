@@ -12,23 +12,13 @@ const Projects = () => {
         scrollPosition = window.scrollY;
 
         if (isOpen) {
-            document.body.style.overflow = 'hidden';
-            document.body.style.position = 'fixed';
-            document.body.style.width = '100%';
-            document.body.style.top = `-${scrollPosition}px`;
+            document.body.classList.add('modal-open');
         } else {
-            const scrollY = document.body.style.top;
-            document.body.style.overflow = 'auto';
-            document.body.style.position = 'static';
-            document.body.style.top = 'auto';
-
-            // Restore scroll position
-            window.scrollTo(0, parseInt(scrollY || '0') * -1);
+            document.body.classList.add('modal-open');
         }
 
         return () => {
-            document.body.style.overflow = "auto"
-            document.body.style.position = 'static';
+            document.body.classList.add('modal-open');
         }
 
     }, [isOpen]);

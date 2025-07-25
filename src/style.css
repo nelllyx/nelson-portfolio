@@ -105,3 +105,11 @@ pre, code {
 html {
     scroll-behavior: smooth;
 }
+
+/* Add this to your global CSS */
+body.modal-open {
+    overflow: hidden;
+    overscroll-behavior: contain; /* Blocks scroll chaining */
+    position: fixed; /* Only if overscroll-behavior isn't enough */
+    width: 100%;
+}

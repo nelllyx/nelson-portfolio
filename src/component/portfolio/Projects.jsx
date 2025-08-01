@@ -1,30 +1,44 @@
 import {FiArrowRight, FiX} from "react-icons/fi";
 import {FaLaptopCode, FaServer, FaGlobe} from "react-icons/fa";
-import {useEffect, useState} from "react";
+import {useEffect, useState, useRef} from "react";
 
 const Projects = () => {
 
     const [isOpen, setIsOpen] = useState(null);
+    const scrollPositionRef = useRef(0);
 
     useEffect(() => {
-        let scrollPosition = 0;
-        // Save current scroll position
-        scrollPosition = window.scrollY;
-
         if (isOpen) {
-            document.body.classList.add('modal-open');
+            scrollPositionRef.current = window.scrollY;
+            document.body.style.overflow = 'hidden';
+            document.body.style.position = 'static';
+            document.body.style.top = `-${scrollPositionRef.current}px`;
+
         } else {
-            document.body.classList.remove('modal-open');
+
+            document.body.style.overflow = '';
+            document.body.style.position = '';
+            document.body.style.top = '';
+
+            window.scrollTo({
+                top: scrollPositionRef.current,
+                behavior: 'instant', // Disable smooth scrolling
+            });
+
+
         }
 
         return () => {
-            document.body.classList.remove('modal-open');
+            document.body.style.overflow = '';
+            document.body.style.position = '';
+            document.body.style.top = '';
         }
 
     }, [isOpen]);
 
 
     const openModal = (modalType) => {
+        scrollPositionRef.current = window.scrollY;
         setIsOpen(modalType)
     }
 

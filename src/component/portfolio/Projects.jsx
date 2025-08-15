@@ -102,8 +102,16 @@ const Projects = () => {
                     <p className="text-gray-600 mb-4">Server-side projects and APIs available on GitHub:</p>
                     <div className="space-y-3">
                         <div className="p-3 bg-purple-50 rounded-lg">
+                            <h4 className="font-semibold text-purple-800">Construction Management Application (Node.Js & Express)</h4>
+                            <p className="text-sm text-gray-600">A simple API for managing construction projects, bids, and milestones built with Node.js, Express, and PostgreSQL using Sequelize ORM.
+                            </p>
+                            <a href="https://github.com/nelllyx/construction" className="text-purple-600 text-sm hover:underline">
+                                View on GitHub →
+                            </a>
+                        </div>
+                        <div className="p-3 bg-purple-50 rounded-lg">
                             <h4 className="font-semibold text-purple-800">Logistic Application</h4>
-                            <p className="text-sm text-gray-600">Spring boot</p>
+                            <p className="text-sm text-gray-600">Java</p>
                             <a href="https://github.com/nelllyx/LogisticApp" className="text-purple-600 text-sm hover:underline">
                                 View on GitHub →
                             </a>
@@ -112,13 +120,6 @@ const Projects = () => {
                             <h4 className="font-semibold text-purple-800">Data Structures & Algorithms</h4>
                             <p className="text-sm text-gray-600">Java</p>
                             <a href="https://github.com/nelllyx/Kata-functions" className="text-purple-600 text-sm hover:underline">
-                                View on GitHub →
-                            </a>
-                        </div>
-                        <div className="p-3 bg-purple-50 rounded-lg">
-                            <h4 className="font-semibold text-purple-800">Data Structures & Algorithms</h4>
-                            <p className="text-sm text-gray-600">Python</p>
-                            <a href="#" className="text-purple-600 text-sm hover:underline">
                                 View on GitHub →
                             </a>
                         </div>

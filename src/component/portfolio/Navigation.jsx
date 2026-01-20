@@ -12,7 +12,7 @@ const Navigation = ( )=> {
         { href: '#projects', label: 'Projects' },
         { href: '#contact', label: 'Contact' }
     ];
-    const resumeUrl = '/SoftwareEngineer.pdf';
+    const resumeUrl = '/NELSON AKEWE CV.pdf';
 
 
     return (

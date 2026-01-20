@@ -55,9 +55,12 @@ const Projects = () => {
                     <p className="text-gray-600 mb-4">Here are my frontend projects built with modern technologies:</p>
                     <div className="space-y-3">
                         <div className="p-3 bg-blue-50 rounded-lg">
-                            <h4 className="font-semibold text-blue-800">React Dashboard</h4>
-                            <p className="text-sm text-gray-600">Interactive dashboard with charts and data
-                                visualization</p>
+                            <h4 className="font-semibold text-blue-800">Anonymous Therapy </h4>
+                            <p className="text-sm text-gray-600">An online therapy application
+                                </p>
+                            <a href="https://anonymous-therapy.vercel.app/" className="text-blue-800 text-sm hover:underline">
+                                View Live →
+                            </a>
                         </div>
                         <div className="p-3 bg-blue-50 rounded-lg">
                             <h4 className="font-semibold text-blue-800">E-commerce UI</h4>
